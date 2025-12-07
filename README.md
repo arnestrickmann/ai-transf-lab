@@ -1,11 +1,14 @@
+
+<img width="938" height="436" alt="Screenshot 2025-12-07 at 14 21 49" src="https://github.com/user-attachments/assets/e67b8460-bb63-4aab-8c92-a0c830bdebe9" />
+
 # Agentic Integration Hub (TypeScript + Tailwind)
 _A lightweight demonstration project for agentic coding workflows_
 
 ## Features
-- ⚙️ Node/Express API (no external keys)
-- 💅 React + Tailwind frontend
-- 🧪 Jest testing of transformations
-- 🧠 Agentic-ready structure (Claude/Cursor compatible)
+- Node/Express API (no external keys)
+- React + Tailwind frontend
+- Jest testing of transformations
+- Agentic-ready structure (Claude/Cursor compatible)
 
 ## Setup
 1. Clone and install
@@ -39,7 +42,7 @@ npm test
 
 ---
 
-## ✅ Key Workshop Demo Moments
+## Key Workshop Demo Moments
 | Step | Outcome |
 |-------|----------|
 | Run tests (1 fail) | Establish baseline |
