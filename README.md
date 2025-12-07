@@ -51,3 +51,20 @@ npm test
 | Claude aligns models to schema | Shows real “data model misalignment” problem |
 | Frontend renders new values with Tailwind styling | “Instant result” wow moment |
 | Claude writes README docs | Shows self-documenting workflow |
+
+## Dependencies & Components Diagram
+- Backend: express, cors; dev: typescript, ts-node, jest, ts-jest, @types/express, @types/jest
+- Frontend: react, react-dom; dev: vite, @vitejs/plugin-react, tailwindcss, postcss, autoprefixer, typescript
+
+```
+[Frontend (Vite + React + Tailwind)]
+    |
+    | fetch GET http://localhost:3000/api/convert
+    v
+[Backend (Express server.ts)]
+    |-- uses normalizeCurrencyData (transform.ts)
+    |-- references FxRate interface (models.ts)
+    |-- optional logger (utils/logger.ts)
+    v
+[data/sample_fx.json]
+```
