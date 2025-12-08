@@ -1,4 +1,4 @@
-# CLAUDE.md — Governance & Testing Context for Agentic Integration Hub
+# CLAUDE.md — Governance & Testing Context for Currency Normalizer
 
 ## Project Purpose
 This repository demonstrates safe AI-assisted development workflows. Agents may plan, edit, and test code autonomously **within these guardrails**.

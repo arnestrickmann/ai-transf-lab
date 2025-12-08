@@ -1,4 +1,4 @@
-# Agentic Integration Hub – Repo Structure
+# Currency Normalizer – Repo Structure
 
 ```
 agentic-integration-hub/

@@ -1,8 +1,8 @@
 
 <img width="938" height="436" alt="Screenshot 2025-12-07 at 14 21 49" src="https://github.com/user-attachments/assets/e67b8460-bb63-4aab-8c92-a0c830bdebe9" />
 
-# Agentic Integration Hub (TypeScript + Tailwind)
-_A lightweight demonstration project for agentic coding workflows_
+# Currency Normalizer (TypeScript + Tailwind)
+_A lightweight FX demo for agentic coding workflows_
 
 What this app does: the backend reads mock FX rates from `data/sample_fx.json`, normalizes them, and serves them via `/api/convert`; the frontend fetches that payload and renders a simple Tailwind-styled table. The repo is seeded with an intentional rounding bug and a model/schema mismatch to find and fix using AI-assisted workflows.
 
@@ -41,18 +41,6 @@ claude plan "Find where rounding precision and data-model mismatch occur, list a
 claude edit "Fix rounding to 3 decimals"
 npm test
 ```
-
----
-
-## Key Workshop Demo Moments
-| Step | Outcome |
-|-------|----------|
-| Run tests (1 fail) | Establish baseline |
-| Claude plans fixes | Shows Plan Mode |
-| Claude edits transform.ts + tests green | Shows execution loop |
-| Claude aligns models to schema | Shows real “data model misalignment” problem |
-| Frontend renders new values with Tailwind styling | “Instant result” wow moment |
-| Claude writes README docs | Shows self-documenting workflow |
 
 ## Dependencies & Components
 - Backend: express, cors; dev: typescript, ts-node, jest, ts-jest, @types/express, @types/jest
