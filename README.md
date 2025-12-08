@@ -35,6 +35,9 @@ npm run dev
 
 Open http://localhost:5173
 
+### Install Claude Code 
+https://code.claude.com/docs/#get-started-in-30-seconds
+
 ### Demo Prompts
 ```bash
 claude plan "Find where rounding precision and data-model mismatch occur, list affected files, generate step-by-step plan."
