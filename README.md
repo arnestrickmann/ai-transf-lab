@@ -4,6 +4,8 @@
 # Agentic Integration Hub (TypeScript + Tailwind)
 _A lightweight demonstration project for agentic coding workflows_
 
+What this app does: the backend reads mock FX rates from `data/sample_fx.json`, normalizes them, and serves them via `/api/convert`; the frontend fetches that payload and renders a simple Tailwind-styled table. The repo is seeded with an intentional rounding bug and a model/schema mismatch to find and fix using AI-assisted workflows.
+
 ## Features
 - Node/Express API (no external keys)
 - React + Tailwind frontend
@@ -21,7 +23,7 @@ cd agentic-integration-hub
 ```bash
 cd backend
 npm install
-npm run dev
+ npm run dev
 ```
 
 ### Run frontend
