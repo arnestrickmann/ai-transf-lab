@@ -52,7 +52,7 @@ npm test
 | Frontend renders new values with Tailwind styling | “Instant result” wow moment |
 | Claude writes README docs | Shows self-documenting workflow |
 
-## Dependencies & Components Diagram
+## Dependencies & Components
 - Backend: express, cors; dev: typescript, ts-node, jest, ts-jest, @types/express, @types/jest
 - Frontend: react, react-dom; dev: vite, @vitejs/plugin-react, tailwindcss, postcss, autoprefixer, typescript
 
