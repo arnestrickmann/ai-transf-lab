@@ -45,6 +45,24 @@ claude edit "Fix rounding to 3 decimals"
 npm test
 ```
 
+### Additional Prompts
+- Plan:  
+  `"Find the rounding precision and model/schema mismatch issues in this repo. List the files to touch, expected fixes, and impacted tests."`
+- Fix rounding:  
+  `"Update backend/src/transform.ts so normalizeCurrencyData rounds to 3 decimals. Keep the output shape { currency, normalizedRate }. Then rerun backend npm test."`
+- Align model/schema:  
+  `"Align FxRate with db_schema.sql naming (iso_code, rate, updated_at) or adjust the test accordingly. Update backend/src/models.ts and backend/tests/models.test.ts so tests pass."`
+
+### More Agentic Prompts
+- Repo Q&A:  
+  `/ask "Summarize how the backend loads data and normalizes FX rates. Point to files and endpoints."`
+- Test-first:  
+  `/edit "Add/adjust a test for the rounding behavior in backend/tests/transform.test.ts to enforce 3-decimal output before implementation."`
+- Commit helper:  
+  `/ask "Draft a concise commit message based on the current git diff. Keep it under 60 chars for the subject."`
+- UI iteration:  
+  `/edit "In frontend/src/components/CurrencyTable.tsx, show updatedAt and a currency symbol column while keeping Tailwind styling."`
+
 ## Dependencies & Components
 - Backend: express, cors; dev: typescript, ts-node, jest, ts-jest, @types/express, @types/jest
 - Frontend: react, react-dom; dev: vite, @vitejs/plugin-react, tailwindcss, postcss, autoprefixer, typescript
