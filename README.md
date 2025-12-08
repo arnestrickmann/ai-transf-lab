@@ -1,5 +1,5 @@
 
-<img width="938" height="436" alt="Screenshot 2025-12-07 at 14 21 49" src="https://github.com/user-attachments/assets/e67b8460-bb63-4aab-8c92-a0c830bdebe9" />
+<img width="750" height="206" alt="Screenshot 2025-12-07 at 18 14 55" src="https://github.com/user-attachments/assets/54335617-2620-4219-8c1c-cf46ab9b1647" />
 
 # Currency Normalizer (TypeScript + Tailwind)
 _A lightweight FX demo for agentic coding workflows_
